@@ -22,13 +22,13 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/login_mail_edittext"
                 android:layout_width="match_parent"
                 android:hint="E-mail"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_mail_edittext"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -36,26 +36,43 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/login_password_edittext"
                 android:layout_width="match_parent"
                 android:hint="Password"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_password_edittext"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
+            <TextView
+                android:id="@+id/login_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I forgot my password"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"/>
+
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="Login"/>
 
+            <TextView
+                android:id="@+id/login_signup_redirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? Sign up"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
 
         </LinearLayout>
 
