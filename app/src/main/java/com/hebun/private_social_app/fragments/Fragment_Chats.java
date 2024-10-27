@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.hebun.private_social_app.R;
 
-public class Fragment_Home_Page extends Fragment {
+public class Fragment_Chats extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_fragment_home_page, container, false);
+        View view = inflater.inflate(R.layout.activity_fragment_chats, container, false);
         return view;
     }
 }
