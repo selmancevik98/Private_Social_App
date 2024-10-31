@@ -13,12 +13,12 @@
         android:title="Share"
         android:icon="@drawable/add_24"/>
 
-    <item android:id="@+id/message_item"
+    <item android:id="@+id/chats_item"
         android:title="Message"
         android:icon="@drawable/comment_alt_dots_24"/>
 
 
-    <item android:id="@+id/person_item"
+    <item android:id="@+id/profile_item"
         android:title="Profile"
         android:icon="@drawable/person_icon"/>
 
