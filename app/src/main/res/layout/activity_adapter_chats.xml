@@ -7,6 +7,7 @@
     android:padding="5dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chats_profile_image"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
@@ -20,11 +21,13 @@
         android:layout_marginLeft="5dp">
 
         <TextView
+            android:id="@+id/chats_name_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"/>
 
         <TextView
+            android:id="@+id/chats_last_msg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="end message"/>
@@ -37,6 +40,7 @@
         android:layout_height="0dp"/>
 
     <TextView
+        android:id="@+id/chats_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="time"
